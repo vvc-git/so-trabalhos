@@ -1,0 +1,15 @@
+[submodule "so-trabalho5"]
+	path = so-trabalho5
+	url = git@github.com:vvc-git/so-trabalho5.git
+[submodule "so-trabalho4"]
+	path = so-trabalho4
+	url = git@github.com:vvc-git/so-trabalho4.git
+[submodule "so-trabalho3"]
+	path = so-trabalho3
+	url = git@github.com:vvc-git/so-trabalho3.git
+[submodule "so-trabalho2"]
+	path = so-trabalho2
+	url = git@github.com:vvc-git/so-trabalho2.git
+[submodule "so-trabalho1"]
+	path = so-trabalho1
+	url = git@github.com:vvc-git/so-trabalho1.git
