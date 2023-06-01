@@ -13,3 +13,6 @@
 [submodule "so-trabalho1"]
 	path = so-trabalho1
 	url = git@github.com:vvc-git/so-trabalho1.git
+[submodule "so-trabalho-final"]
+	path = so-trabalho-final
+	url = git@github.com:vvc-git/so-trabalho-final.git
