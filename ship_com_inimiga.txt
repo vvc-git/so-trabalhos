@@ -1,0 +1,23 @@
+diff --git a/main b/main
+deleted file mode 100755
+index 4981c40..0000000
+Binary files a/main and /dev/null differ
+diff --git a/ship.cc b/ship.cc
+index 6e054de..6599dc8 100644
+--- a/ship.cc
++++ b/ship.cc
+@@ -27,7 +27,13 @@ void Ship::set_movement_down() {
+ }
+ 
+ void Ship::run() {
+-    _pos->set_current(Config::get_pos());
++
++    // !! Gambiarra para testar a colisao, tirar depois
++    if (_pos->get_id()!=0) {
++        sf::Vector2f teste = sf::Vector2f(100, 250);
++        _pos->set_current(teste);
++    } else {
++    _pos->set_current(Config::get_pos());}
+ 
+     while (Config::gaming_running()) {
+         if (this->_down)
